@@ -34,7 +34,7 @@ class SignInCubit extends Cubit<SignInState> {
     String password,
     BuildContext context,
   ) async {
-    if (username.isEmpty && password.isEmpty) {
+    if (username.isEmpty || password.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(customSnacBar(
         context,
         message: 'Empty password or username',
