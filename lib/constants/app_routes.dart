@@ -15,10 +15,7 @@ class AppRoute {
   static const String splash = '/splash';
   static const String visit = '/visit';
   static const String signIn = '/signIn';
-  static const String letsIn = '/letsIn';
-  static const String interests = '/interests';
   static const String tabSelector = '/tabSelector';
-  static const String topMovies = '/topMovies';
   static const String explore = '/search';
   static const String profile = '/profile';
   static const String editProfile = '/editProfile';
